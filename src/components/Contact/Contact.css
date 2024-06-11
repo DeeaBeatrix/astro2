@@ -1,0 +1,82 @@
+.form-container {
+  margin-top: 40px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  border: none;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: var(--white);
+  border-radius: 4px;
+  color: var(--black); 
+}
+
+#country-form select option {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: var(--white);
+  border-radius: 4px;
+  color: var(--black);
+  border: 1px solid var(--black);
+}
+
+.form-group input::placeholder {
+  color: var(--purple);
+}
+
+.button-chart {
+  margin-top: 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: var(--six);
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: var(--six);
+}
+
+#result {
+  margin-top: 20px;
+  color: var(--white);
+}
+
+#country {
+  background-color: var(--white);
+}
+
+#city {
+  background-color: var(--white);
+}
+
+#select {
+  background-color: white;
+}

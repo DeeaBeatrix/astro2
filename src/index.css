@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  font-family:"Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--black);
+}
+
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --green: #799F40;
+  --purple: #be95c4;
+  --pink1: #fb6f92;
+  --pink2: #ff8fab;
+  --pink3: #ffb3c6;
+  --pink4: #ffc2d1;
+  --pink5: #ffe5ec;
+  --one: #d9ed92;
+  --two: #b5e48c;
+  --three: #99d98c;
+  --four: #76c893;
+  --five: #52b69a;
+  --six: #34a0a4;
+  --seven: #168aad;
+  --eight: #1a759f;
+  --nine: #1e6091;
+  --ten: #184e77;
+  --eleven: #004385;
+  --twelve: #033860;
+}
+
+

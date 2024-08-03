@@ -1,13 +1,16 @@
 import React from "react";
-import './AboutMe.css'
-import cas from '../../assets/cas.jpg'
+import './DespreMine.css';
+import cas from '../../assets/cas.jpg';
 import javascript from '../../assets/javascript.svg';
 import html from '../../assets/html.svg';
 import css from '../../assets/css.svg';
-import scrum from '../../assets/scrum.svg'
+import scrum from '../../assets/scrum.svg';
+import nextjs from '../../assets/nextjs.svg';
+import react from '../../assets/react.svg';
+import nodejs from '../../assets/nodejs.svg';
 
 
-const AboutMe = () => {
+const DespreMine = () => {
     return (
         <div id='about' className='about-section'>
             <h1 className='about-title'> Cine sunt eu? </h1>
@@ -17,6 +20,18 @@ const AboutMe = () => {
                 <div className="extra">
                     <img src={scrum} alt="diploma" />
                     <p>Scrum</p>
+                </div>
+                <div className="extra">
+                    <img src={nextjs} alt="next-js" />
+                    <p>Next.js</p>
+                </div>
+                <div className="extra">
+                    <img src={react} alt="react" />
+                    <p>React</p>
+                </div>
+                <div className="extra">
+                    <img src={nodejs} alt="node-js" />
+                    <p>Node.js</p>
                 </div>
                 <div className="extra">
                     <img src={javascript} alt="javascript" />
@@ -35,4 +50,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe;
+export default DespreMine;

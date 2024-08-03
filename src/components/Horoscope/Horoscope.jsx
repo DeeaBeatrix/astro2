@@ -13,9 +13,6 @@ const Horoscope = () => {
 
   return (
     <div>
-      <div className='horoscop-container'>
-        <h1 className='horoscop-title'> Horoscop </h1>
-      </div>
       <div className='button-container'>
         {signs.map((sign, index) => (
             <button key={sign.title} 
@@ -27,9 +24,9 @@ const Horoscope = () => {
         ))}
       </div>
       <div className='sign-content'>
-        <h2>{signs[currentSign].title}</h2>
+        <h2 style={{color: 'white'}}>{signs[currentSign].title}</h2>
         <img src={signs[currentSign].image} alt={signs[currentSign].alt} className='sign-image' />
-        <p className='sign-text'>{signs[currentSign].text}</p>
+        <p className='sign-text' style={{fontSize: '14px'}}>{signs[currentSign].text}</p>
       </div>
     </div>
   );

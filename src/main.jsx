@@ -8,8 +8,8 @@ import {
 import Root from './root.jsx';
 import Horoscope from './components/Horoscope/Horoscope.jsx';
 import HomePage from './components/home/HomePage.jsx';
-import AboutMe from './components/AboutMe/AboutMe.jsx';
-import Contact from './components/Contact/Contact.jsx';
+import DespreMine from './components/DespreMine/DespreMine.jsx';
+import HartaNatala from './components/HartaNatala/HartaNatala.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,12 +25,12 @@ const router = createBrowserRouter([
         element: <Horoscope />,
       },
       {
-        path: "/contact",
-        element: <Contact />,
+        path: "/harta-natala",
+        element: <HartaNatala />,
       },
       {
-        path: "/about-me",
-        element: <AboutMe />,
+        path: "/despre-mine",
+        element: <DespreMine />,
       },
     ],
   },

@@ -2,12 +2,12 @@
   text-align: center;
 }
 
-.horoscop-title {
+/* .horoscop-title {
   background: linear-gradient(to bottom right,hsl(145, 51%, 73%) 10%, hsl(155, 82%, 35%) 25%, hsl(197, 55%, 51%) 75%, hsl(204, 71%, 43%) 100%);
   text-align: center;
   padding: 20px;
   font-size: 2em;
-}
+} */
 
 .button-container {
   display: flex;
